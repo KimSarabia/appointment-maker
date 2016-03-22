@@ -1,0 +1,7 @@
+<h1>Home!</h1>
+
+<ul>
+  <li ng-repeat = 'appt in appointments'>
+  {{appt.time | date: 'short'}} : {{appt.name}}
+  </li>
+</ul>
